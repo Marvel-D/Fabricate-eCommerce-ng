@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "fabricate-ecom": {
+      "hosting": {
+        "Fabricate-eCommerce": [
+          "fabricate-ecom"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "fabricate-ecom"
+  }
+}

@@ -1,0 +1,15 @@
+<p>item works!</p>
+
+
+
+<div *ngIf="items;else noItems">
+    <ul *ngFor="let item of items">
+        <li>{{item.name}}</li>
+        <li>{{item.description}}</li>
+    </ul>
+</div>
+
+<ng-template #noItems>
+    <hr>
+    <h4>No items available in list</h4>
+</ng-template>
